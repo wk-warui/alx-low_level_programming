@@ -16,12 +16,12 @@ int main(void)
 		if (n <= 26)
 		{
 			putchar(a);
-			a++
+			a++;
 		}
 		else
 		{
 			putcahe(A);
-			A++
+			A++;
 		}
 		n++;
 	}
