@@ -11,9 +11,9 @@ int main(void)
 	char A = 'A';
 	int n = 0;
 
-	while (n <= 52)
+	while (n <= 51)
 	{
-		if (n <= 26)
+		if (n <= 25)
 		{
 			putchar(a);
 			a++;
