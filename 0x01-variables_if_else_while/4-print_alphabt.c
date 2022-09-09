@@ -9,9 +9,9 @@ int main(void)
 	char a = 'a';
 	int n = 0;
 
-	while (a != 'q' && a != 'e')
+	while (n <= 25)
 	{
-		if (n <= 25)
+		if (a != 'q' && a != 'e')
 		{
 			putchar(a);
 		}
