@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - Program entry point
  *
@@ -14,6 +13,6 @@ int main(void)
 		putchar(n + '0');
 		n++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
