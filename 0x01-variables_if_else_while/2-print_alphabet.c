@@ -7,7 +7,8 @@
 int main(void)
 {
 	char a = 'a';
-	int n = 0;	
+	int n = 0;
+
 	while (n < 26)
 	{
 		putchar(a);
@@ -15,5 +16,5 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-	Return(0);
+	return (0);
 }
