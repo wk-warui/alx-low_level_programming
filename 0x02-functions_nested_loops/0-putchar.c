@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - Program entry point
+ * main - check the code
  *
- * Return: Always 0(Success)
+ * Return: Always 0.
  */
 
 int main(void)
@@ -15,10 +15,10 @@ int main(void)
 	i = 0;
 	while (i < 8)
 	{
-		putchar(test[i]);
+		_putchar(test[i]);
 		i++;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
