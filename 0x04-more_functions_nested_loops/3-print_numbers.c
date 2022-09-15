@@ -1,10 +1,13 @@
-#include "main.c"
+#include "main.h"
 
 /**
- * print_numbers - give in numbers as output
+ * print_numbers - entry point
  *
- * Return: Always 0 (Success)
+ * Description: Prints the numbers with _putchar
+ *
+ * Return: void
  */
+
 void print_numbers(void)
 {
 	int number;
