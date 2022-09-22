@@ -2,22 +2,23 @@
 
 /**
  * _strcmp - compares two strings
- * @s1: first string to be compared
- * @s2: second string
+ * @s1: pointer to the first string to be compared
+ * @s2: pointer to the second string
  *
  * Return: value less than 0 if string is less than the other.
  * value greater than 0 if string is greater than the other.
  * 0 if strings are equal.
  */
-nt _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
-	int betty, maria;
+	int counter, cmpVal;
 
-	betty = 0;
-	while (s1[betty] == s2[betty] && s1[betty] != '\0')
+	counter = 0;
+	while (s1[counter] == s2[counter] && s1[counter] != '\0')
 	{
-		betty++;
+		counter++;
 	}
-	maria = s1[betty] - s2[betty];
-	return (maria);
+
+	cmpVal = s1[counter] - s2[counter];
+	return (cmpVal);
 }
