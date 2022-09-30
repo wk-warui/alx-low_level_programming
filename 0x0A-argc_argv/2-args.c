@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	{
 		printf("%s\n", *(argv + count));
 		count++;
-		(*argv++);
+		(*argv)++;
 	}
 
 	return (0);
