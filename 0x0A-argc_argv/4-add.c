@@ -9,10 +9,10 @@
  */
 int main(int argc, char **argv)
 {
-	int add, i, j;
+	int sum, i, j;
 
-	add = 0;
-	for (i = 0; i < argc; i++)
+	sum = 0;
+	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
@@ -22,8 +22,8 @@ int main(int argc, char **argv)
 				return (1);
 			}
 		}
-		add += atoi(argv[i]);
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", add);
+	printf("%d\n", sum);
 	return (0);
 }
