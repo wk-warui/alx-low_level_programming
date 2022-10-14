@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	operation = get_op_funct(argv[2]);
+	operation = get_op_func(argv[2]);
 
 	if (operation == NULL)
 	{
